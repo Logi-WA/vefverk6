@@ -8,7 +8,7 @@
     "sass-watch": "sass --watch *.scss styles.css",
     "lint": "stylelint styles.scss ./**/*.scss",
     "browser-sync": "browser-sync start --server --files index.html styles.css",
-    "dev": "concurrently npm:sass-watch npm:browser-sync"    
+    "dev": "concurrently npm:sass-watch npm:browser-sync"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,10 @@
   "homepage": "https://github.com/Logi-WA/vefverk6#readme",
   "dependencies": {
     "browser-sync": "^2.29.3",
-    "concurrently": "^8.2.1",
     "sass": "^1.69.3",
     "stylelint": "^15.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
   }
 }
