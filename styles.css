@@ -307,6 +307,7 @@ fieldset textarea {
   width: 100%;
 }
 
+/* stylelint-disable-next-line */
 fieldset input[type=checkbox] {
   width: auto;
 }
