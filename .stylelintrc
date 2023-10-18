@@ -1,7 +1,5 @@
 {
   "extends": ["stylelint-config-sass-guidelines"],
   "rules": {
-    "selector-no-qualifying-type": null,
-    "max-nesting-depth": 2
   }
 }

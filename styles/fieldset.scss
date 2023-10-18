@@ -19,8 +19,8 @@ fieldset {
     padding: calc(var(--spacing) * 0.5);
     width: 100%;
   }
-  
-  fieldset input[type='checkbox'] {
+  /* stylelint-disable-next-line */
+  fieldset input[type='checkbox'] { 
     width: auto;
   }
   

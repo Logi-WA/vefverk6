@@ -23,23 +23,23 @@
     color: var(--color-dark);
     background-color: var(--color-gold-light);
     border-radius: 5px;
+  }
 
-    .title {
+    .box .title {
       margin-bottom: calc(var(--spacing) * 0.5);
       border-bottom: var(--border-small) solid var(--color-dark);
     }
 
-    .content {
+    .box .content {
       flex: 1;
     }
 
-    img {
+    .box img {
       max-height: 400px;
 
       object-fit: cover;
       object-position: top center;
     }
-  }
 }
 
 @media (min-width: 500px) {
