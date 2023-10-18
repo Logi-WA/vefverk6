@@ -8,7 +8,7 @@
     "sass": "sass styles.scss:styles.css",
     "sass-watch": "sass --watch styles.scss:styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
-    "lint": "stylelint styles.scss:styles/*.scss"
+    "lint": "stylelint styles.scss styles/*.scss"
   },
   "repository": {
     "type": "git",

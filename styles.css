@@ -10,8 +10,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -20,13 +20,13 @@ html {
   font-family: "Lora";
   font-style: normal;
   font-display: swap;
-  src: url(./fonts/Lora-VariableFont_wght.ttf) format("woff");
+  src: url("./fonts/Lora-VariableFont_wght.ttf") format("woff");
 }
 @font-face {
   font-family: "Noto Sans Display";
   font-style: normal;
   font-display: swap;
-  src: url(./fonts/NotoSansDisplay-VariableFont.ttf) format("woff");
+  src: url("./fonts/NotoSansDisplay-VariableFont.ttf") format("woff");
 }
 /* Stillingar */
 :root {
